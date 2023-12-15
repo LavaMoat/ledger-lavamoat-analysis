@@ -1,0 +1,1 @@
+require('@ledgerhq/connect-kit')

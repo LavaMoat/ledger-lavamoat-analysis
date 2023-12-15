@@ -1,0 +1,1 @@
+require('bad-ledgerhq-connect-kit-v1-1-7')
