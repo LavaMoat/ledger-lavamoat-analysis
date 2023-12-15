@@ -1,6 +1,10 @@
 ### about
 
-this is an analysis of the ledger supplychain attack and how LavaMoat could have prevented it
+this is an analysis of the ledger supplychain attack and how LavaMoat could have prevented it.
+
+the vulnerability partially stems from [@ledgerhq/connect-kit-loader](https://www.npmjs.com/package/@ledgerhq/connect-kit-loader) injecting a script tag at runtime as part of its normal operation to load the latest version of [@ledgerhq/connect-kit](https://www.npmjs.com/package/@ledgerhq/connect-kit).
+
+we consider `@ledgerhq/connect-kit-loader` a non-starter for a secure setup, and instead investigate the developer's ability to analyze policy changes when updating `@ledgerhq/connect-kit` to the compromised version.
 
 ### status
 
