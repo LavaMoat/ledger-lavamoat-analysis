@@ -2,6 +2,10 @@
 
 this is an analysis of the ledger supplychain attack and how LavaMoat could have prevented it
 
+### status
+
+the analysis has just begun and is not ready.
+
 ### findings
 
 policy under bad version `1.1.7`:
